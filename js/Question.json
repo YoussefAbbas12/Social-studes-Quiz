@@ -2,786 +2,704 @@
   "totalQuestions": 60,
   "questions": [
     {
-      "question": "What does HTML stand for?",
+      "id": 1,
+      "question": "ما هي أكبر هضبة في مصر؟",
       "choices": [
-        "Hyper Text Markup Language",
-        "High Text Markup Language",
-        "Hyper Tabular Markup Language",
-        "None of the above"
+        "هضبة الجيزة",
+        "هضبة الأهرامات",
+        "هضبة النوبة",
+        "هضبة سيناء"
       ],
-      "correctAnswer": "Hyper Text Markup Language",
-      "explanation": "HTML is the standard markup language used to create web pages.",
-      "topic": "HTML Basics",
-      "help": "HTML is essential for structuring web content."
+      "correctAnswer": "هضبة النوبة",
+      "explanation": "تعتبر هضبة النوبة من أكبر الهضاب في مصر.",
+      "topic": "التضاريس",
+      "help": "الهضاب تعتبر من مظاهر التضاريس الهامة."
     },
     {
-      "question": "Which HTML element is used to define the footer of a document?",
+      "id": 2,
+      "question": "ما هي العاصمة القديمة لمصر؟",
       "choices": [
-        "<footer>",
-        "<bottom>",
-        "<section>",
-        "<aside>"
+        "القاهرة",
+        "الإسكندرية",
+        "طيبة",
+        "الأقصر"
       ],
-      "correctAnswer": "<footer>",
-      "explanation": "The <footer> element is used to specify a footer for a document or section.",
-      "topic": "HTML Elements",
-      "help": "Footers typically contain author information, copyright, or related documents."
+      "correctAnswer": "طيبة",
+      "explanation": "طيبة كانت عاصمة مصر القديمة والمعروفة الآن بالأقصر.",
+      "topic": "المعالم السياحية",
+      "help": "الأقصر تحتوي على العديد من المعالم السياحية."
     },
     {
-      "question": "Which of the following is a JavaScript framework?",
+      "id": 3,
+      "question": "ما هو المعلم السياحي الأشهر في مصر؟",
       "choices": [
-        "React",
-        "Django",
-        "Ruby on Rails",
-        "Laravel"
+        "الأهرامات",
+        "سهل البقعة",
+        "صحراء الغربية",
+        "وادي الملوك"
       ],
-      "correctAnswer": "React",
-      "explanation": "React is a JavaScript library for building user interfaces, often used in single-page applications.",
-      "topic": "JavaScript Frameworks",
-      "help": "Frameworks help streamline development by providing pre-written code for common tasks."
+      "correctAnswer": "الأهرامات",
+      "explanation": "الأهرامات تعد من عجائب العالم السبع.",
+      "topic": "المعالم السياحية",
+      "help": "الأهرامات هي رمز الحضارة المصرية القديمة."
     },
     {
-      "question": "What is the correct syntax for referring to an external script called 'script.js'?",
+      "id": 4,
+      "question": "من هو الملك الذي بنى الهرم الأكبر؟",
       "choices": [
-        "<script src='script.js'>",
-        "<script href='script.js'>",
-        "<script name='script.js'>",
-        "<script file='script.js'>"
+        "رع",
+        "خوفو",
+        "منقرع",
+        "تحتمس"
       ],
-      "correctAnswer": "<script src='script.js'>",
-      "explanation": "The 'src' attribute is used to specify the URL of the external script file.",
-      "topic": "JavaScript Basics",
-      "help": "Always use 'src' for external JavaScript files in your HTML."
+      "correctAnswer": "خوفو",
+      "explanation": "خوفو هو الملك الذي أمر ببناء الهرم الأكبر في الجيزة.",
+      "topic": "الآثار",
+      "help": "الهرم الأكبر هو أحد الآثار الأكثر شهرة في العالم."
     },
     {
-      "question": "Which CSS property controls the text size?",
+      "id": 5,
+      "question": "ما هو النهر الرئيسي في مصر؟",
       "choices": [
-        "font-size",
-        "text-size",
-        "font-style",
-        "text-style"
+        "نهر النيل",
+        "نهر الفرات",
+        "نهر الأمازون",
+        "نهر الراين"
       ],
-      "correctAnswer": "font-size",
-      "explanation": "The 'font-size' property is used to set the size of the font.",
-      "topic": "CSS Basics",
-      "help": "You can use units like 'px', 'em', or '%' to define font size."
+      "correctAnswer": "نهر النيل",
+      "explanation": "نهر النيل هو أطول نهر في العالم ويجري في مصر.",
+      "topic": "التضاريس",
+      "help": "النيل له دور كبير في الحضارة المصرية."
     },
     {
-      "question": "What does CSS stand for?",
+      "id": 6,
+      "question": "ما هي العجائب السبع التي توجد في مصر؟",
       "choices": [
-        "Creative Style Sheets",
-        "Cascading Style Sheets",
-        "Computer Style Sheets",
-        "Colorful Style Sheets"
+        "الأهرامات، تمثال أبو الهول، معبد الكرنك",
+        "الأهرامات، حدائق بابل، تمثال أبو الهول",
+        "الأهرامات، الكولوسيوم، برج إيفل",
+        "الأهرامات، معبد الأقصر، برج لندن"
       ],
-      "correctAnswer": "Cascading Style Sheets",
-      "explanation": "CSS is used to control the layout and style of a webpage.",
-      "topic": "CSS Basics",
-      "help": "CSS allows for the separation of content and presentation."
+      "correctAnswer": "الأهرامات، تمثال أبو الهول، معبد الكرنك",
+      "explanation": "الأهرامات وتمثال أبو الهول ومعبد الكرنك تعد من عجائب العالم.",
+      "topic": "العجائب",
+      "help": "مصر تحتوي على العديد من المعالم التاريخية العجيبة."
     },
     {
-      "question": "Which of the following is a valid CSS selector?",
+      "id": 7,
+      "question": "من هو عالم المصريات الشهير الذي اكتشف مقبرة توت عنخ آمون؟",
       "choices": [
-        "#header",
-        ".header",
-        "header",
-        "All of the above"
+        "هوارد كارتر",
+        "زاهي حواس",
+        "سليم حسن",
+        "أحمد فخري"
       ],
-      "correctAnswer": "All of the above",
-      "explanation": "All options are valid CSS selectors for targeting elements.",
-      "topic": "CSS Selectors",
-      "help": "ID selectors use '#', class selectors use '.', and type selectors use the element name."
+      "correctAnswer": "هوارد كارتر",
+      "explanation": "هوارد كارتر هو الذي اكتشف مقبرة توت عنخ آمون في عام 1922.",
+      "topic": "الشخصيات",
+      "help": "اكتشافه كان من أهم الاكتشافات الأثرية في القرن العشرين."
     },
     {
-      "question": "What is the purpose of the 'alt' attribute in an <img> tag?",
+      "id": 8,
+      "question": "ما هو أشهر معبد في مصر القديمة؟",
       "choices": [
-        "To specify an image source",
-        "To provide alternative text for the image",
-        "To define image dimensions",
-        "To add a border to the image"
+        "معبد الكرنك",
+        "معبد فيلة",
+        "معبد أبو سمبل",
+        "معبد الأقصر"
       ],
-      "correctAnswer": "To provide alternative text for the image",
-      "explanation": "The 'alt' attribute provides text when an image cannot be displayed.",
-      "topic": "HTML Accessibility",
-      "help": "Using 'alt' text improves accessibility for visually impaired users."
+      "correctAnswer": "معبد الكرنك",
+      "explanation": "معبد الكرنك هو أكبر معبد في العالم ويقع في الأقصر.",
+      "topic": "الآثار",
+      "help": "يعتبر معبد الكرنك من أهم المعالم الأثرية في مصر."
     },
     {
-      "question": "Which method is used to select an element with a specific ID in JavaScript?",
+      "id": 9,
+      "question": "ما هي سلاسل الجبال التي توجد في سيناء؟",
       "choices": [
-        "getElementById()",
-        "querySelector()",
-        "getElementsByClassName()",
-        "querySelectorAll()"
+        "جبال الألب",
+        "جبال الأطلس",
+        "جبال سانت كاترين",
+        "جبال روكي"
       ],
-      "correctAnswer": "getElementById()",
-      "explanation": "The getElementById() method returns the element that has the ID attribute with the specified value.",
-      "topic": "JavaScript DOM Manipulation",
-      "help": "This method is commonly used to manipulate specific elements on a page."
+      "correctAnswer": "جبال سانت كاترين",
+      "explanation": "جبال سانت كاترين هي أعلى قمة في مصر.",
+      "topic": "التضاريس",
+      "help": "الجبال توفر مناظر طبيعية رائعة."
     },
     {
-      "question": "What is the main purpose of using frameworks in web development?",
+      "id": 10,
+      "question": "ما هو أكثر المعالم السياحية زيارة في مصر؟",
       "choices": [
-        "To write code faster",
-        "To enforce design patterns",
-        "To simplify complex tasks",
-        "All of the above"
+        "الأهرامات",
+        "متحف المصري",
+        "القلعة",
+        "سوق خان الخليلي"
       ],
-      "correctAnswer": "All of the above",
-      "explanation": "Frameworks provide tools and libraries that help streamline development processes.",
-      "topic": "Web Development Frameworks",
-      "help": "Frameworks often come with pre-built functions, making coding more efficient."
+      "correctAnswer": "الأهرامات",
+      "explanation": "الأهرامات هي أكثر المعالم شهرة وت attract الزوار من جميع أنحاء العالم.",
+      "topic": "المعالم السياحية",
+      "help": "زيارة الأهرامات تجربة فريدة."
     },
     {
-      "question": "What does the 'position' property in CSS do?",
+      "id": 11,
+      "question": "من هو أول رئيس لمصر بعد ثورة 1952؟",
       "choices": [
-        "Sets the position of an element",
-        "Defines how an element is positioned in the document",
-        "Both A and B",
-        "None of the above"
+        "محمد نجيب",
+        "جمال عبد الناصر",
+        "أنور السادات",
+        "حسني مبارك"
       ],
-      "correctAnswer": "Both A and B",
-      "explanation": "The 'position' property controls the positioning method used for an element.",
-      "topic": "CSS Positioning",
-      "help": "Common values include static, relative, absolute, fixed, and sticky."
+      "correctAnswer": "محمد نجيب",
+      "explanation": "محمد نجيب كان أول رئيس لجمهورية مصر العربية بعد الثورة.",
+      "topic": "الشخصيات",
+      "help": "لعب دورًا مهمًا في تاريخ مصر الحديث."
     },
     {
-      "question": "Which of the following is a backend technology?",
+      "id": 12,
+      "question": "ما هو اسم أول مصري حصل على جائزة نوبل في الأدب؟",
       "choices": [
-        "JavaScript",
-        "Node.js",
-        "HTML",
-        "CSS"
+        "نجيب محفوظ",
+        "طه حسين",
+        "يوسف إدريس",
+        "أحمد شوقي"
       ],
-      "correctAnswer": "Node.js",
-      "explanation": "Node.js is a runtime environment that allows for server-side scripting using JavaScript.",
-      "topic": "Backend Technologies",
-      "help": "Backend technologies handle the server-side logic of web applications."
+      "correctAnswer": "نجيب محفوظ",
+      "explanation": "نجيب محفوظ هو أول كاتب عربي يحصل على جائزة نوبل في الأدب عام 1988.",
+      "topic": "الشخصيات",
+      "help": "أعماله تعكس الثقافة المصرية بشكل عميق."
     },
     {
-      "question": "What is a RESTful API?",
+      "id": 13,
+      "question": "ما هي أكبر صحراء في مصر؟",
       "choices": [
-        "A method for interacting with databases",
-        "An architectural style for designing networked applications",
-        "A way to create mobile applications",
-        "None of the above"
+        "صحراء النوبة",
+        "صحراء الغربية",
+        "صحراء سيناء",
+        "صحراء عيذاب"
       ],
-      "correctAnswer": "An architectural style for designing networked applications",
-      "explanation": "RESTful APIs use HTTP requests to access and use data.",
-      "topic": "APIs",
-      "help": "They are stateless and rely on standard HTTP methods like GET, POST, PUT, DELETE."
+      "correctAnswer": "صحراء الغربية",
+      "explanation": "صحراء الغربية هي أكبر الصحاري في مصر.",
+      "topic": "التضاريس",
+      "help": "تتميز بمظاهر طبيعية فريدة."
     },
     {
-      "question": "Which HTML element is used to create a hyperlink?",
+      "id": 14,
+      "question": "ما هو اسم المعلم التاريخي المعروف بأنه أحد عجائب العالم؟",
       "choices": [
-        "<link>",
-        "<a>",
-        "<href>",
-        "<hyperlink>"
+        "الهرم الأكبر",
+        "معبد الكرنك",
+        "مقبرة توت عنخ آمون",
+        "قلعة صلاح الدين"
       ],
-      "correctAnswer": "<a>",
-      "explanation": "The <a> element is used to define hyperlinks that link to other web pages.",
-      "topic": "HTML Links",
-      "help": "Use the 'href' attribute to specify the URL of the page the link goes to."
+      "correctAnswer": "الهرم الأكبر",
+      "explanation": "الهرم الأكبر في الجيزة هو أحد عجائب العالم السبع.",
+      "topic": "الآثار",
+      "help": "يعتبر رمزًا للحضارة المصرية القديمة."
     },
     {
-      "question": "What is the difference between '== and '===' in JavaScript?",
+      "id": 15,
+      "question": "أي نهر يعد المصدر الرئيسي لمياه الزراعة في مصر؟",
       "choices": [
-        "There is no difference",
-        "== checks for value equality, while === checks for both value and type equality",
-        "== checks for type equality, while === checks for value equality",
-        "None of the above"
+        "نهر النيل",
+        "نهر الفرات",
+        "نهر الأمازون",
+        "نهر دجلة"
       ],
-      "correctAnswer": "== checks for value equality, while === checks for both value and type equality",
-      "explanation": "'==' performs type coercion, while '===' does not.",
-      "topic": "JavaScript Comparison Operators",
-      "help": "Use '===' for strict comparisons to avoid unexpected results."
+      "correctAnswer": "نهر النيل",
+      "explanation": "نهر النيل هو المصدر الرئيسي للمياه في مصر، ويستخدم في الزراعة.",
+      "topic": "التضاريس",
+      "help": "النيل يدعم الزراعة والحياة في مصر."
     },
     {
-      "question": "What is the purpose of the 'viewport' meta tag in HTML?",
+      "id": 16,
+      "question": "ما هي المدينة التي تُعرف باسم 'عروس البحر المتوسط'؟",
       "choices": [
-        "To control the layout on mobile browsers",
-        "To set the character encoding",
-        "To specify the title of the page",
-        "To add a favicon"
+        "القاهرة",
+        "الإسكندرية",
+        "شرم الشيخ",
+        "الأقصر"
       ],
-      "correctAnswer": "To control the layout on mobile browsers",
-      "explanation": "The viewport meta tag allows for responsive web design by controlling the layout on different devices.",
-      "topic": "Responsive Design",
-      "help": "It helps ensure your website is mobile-friendly."
+      "correctAnswer": "الإسكندرية",
+      "explanation": "الإسكندرية تُعرف بهذا اللقب بسبب موقعها الجميل على الساحل.",
+      "topic": "المعالم السياحية",
+      "help": "تتميز بالإطلالات الساحرة والشواطئ."
     },
     {
-      "question": "What does AJAX stand for?",
+      "id": 17,
+      "question": "من هو الفرعون الذي يعتبر من أعظم الفراعنة في مصر القديمة؟",
       "choices": [
-        "Asynchronous JavaScript and XML",
-        "Advanced Java and XML",
-        "Asynchronous JSON and XML",
-        "All JavaScript and XML"
+        "أحمس",
+        "رمسيس الثاني",
+        "خوفو",
+        "توت عنخ آمون"
       ],
-      "correctAnswer": "Asynchronous JavaScript and XML",
-      "explanation": "AJAX allows web pages to be updated asynchronously by exchanging data with a web server.",
-      "topic": "Web Technologies",
-      "help": "AJAX enables dynamic and interactive web applications."
+      "correctAnswer": "رمسيس الثاني",
+      "explanation": "رمسيس الثاني يُعرف بقوته وإنجازاته الكبيرة.",
+      "topic": "الشخصيات",
+      "help": "لقب بالملك العظيم بسبب انتصاراته."
     },
     {
-      "question": "What is the primary function of a web server?",
+      "id": 18,
+      "question": "ما هو اسم أكبر معبد في عصر الفراعنة؟",
       "choices": [
-        "To store data",
-        "To serve web pages",
-        "To process requests",
-
-
-        "All of the above"
+        "معبد الأقصر",
+        "معبد الكرنك",
+        "معبد أبو سمبل",
+        "معبد فيلة"
       ],
-      "correctAnswer": "All of the above",
-      "explanation": "A web server stores, processes, and delivers web pages to clients.",
-      "topic": "Web Servers",
-      "help": "Web servers handle requests via HTTP and HTTPS."
+      "correctAnswer": "معبد الكرنك",
+      "explanation": "معبد الكرنك هو أكبر معبد في العالم ويعود للعصر الفرعوني.",
+      "topic": "الآثار",
+      "help": "يتميز بتصميمه المعماري الفريد."
     },
     {
-      "question": "Which CSS property is used to change the background color of an element?",
+      "id": 19,
+      "question": "ما هو المعلم المعروف بـ 'وجه الملك' في مصر؟",
       "choices": [
-        "color",
-        "background-color",
-        "bgcolor",
-        "background"
+        "تمثال أبو الهول",
+        "تمثال رمسيس الثاني",
+        "تمثال توت عنخ آمون",
+        "تمثال نفرتيتي"
       ],
-      "correctAnswer": "background-color",
-      "explanation": "The 'background-color' property sets the background color of an element.",
-      "topic": "CSS Styling",
-      "help": "You can use color names, hex codes, or RGB values."
+      "correctAnswer": "تمثال أبو الهول",
+      "explanation": "تمثال أبو الهول يعتبر من أبرز المعالم الأثرية في مصر.",
+      "topic": "الآثار",
+      "help": "يمثل رأس إنسان وجسد أسد."
     },
     {
-      "question": "What does the term 'responsive web design' refer to?",
+      "id": 20,
+      "question": "ما هي أشهر المساجد في مصر؟",
       "choices": [
-        "Web design that adapts to different screen sizes",
-        "Designing websites for desktop only",
-        "Web design that uses fixed layouts",
-        "None of the above"
+        "مسجد الحسين",
+        "مسجد السيدة زينب",
+        "مسجد الأزهر",
+        "مسجد محمد علي"
       ],
-      "correctAnswer": "Web design that adapts to different screen sizes",
-      "explanation": "Responsive web design ensures that web pages render well on various devices.",
-      "topic": "Web Design",
-      "help": "Techniques include fluid grids and flexible images."
+      "correctAnswer": "مسجد الأزهر",
+      "explanation": "مسجد الأزهر هو أحد أقدم الجامعات في العالم.",
+      "topic": "المعالم السياحية",
+      "help": "يعتبر مركزًا للعلم والثقافة."
     },
     {
-      "question": "Which of the following is a valid JavaScript data type?",
+      "id": 21,
+      "question": "ما هو اسم البحيرة الأكثر شهرة في مصر؟",
       "choices": [
-        "String",
-        "Boolean",
-        "Number",
-        "All of the above"
+        "بحيرة السد العالي",
+        "بحيرة ناصر",
+        "بحيرة قارون",
+        "بحيرة الإسكندرية"
       ],
-      "correctAnswer": "All of the above",
-      "explanation": "JavaScript has several data types, including strings, booleans, and numbers.",
-      "topic": "JavaScript Data Types",
-      "help": "Understanding data types is crucial for effective programming."
+      "correctAnswer": "بحيرة ناصر",
+      "explanation": "بحيرة ناصر هي أكبر بحيرة صناعية في مصر.",
+      "topic": "التضاريس",
+      "help": "تعتبر مصدرًا هامًا للري."
     },
     {
-      "question": "What does the 'z-index' property in CSS control?",
+      "id": 22,
+      "question": "ما هي الدولة التي تتشارك الحدود مع مصر من الشرق؟",
       "choices": [
-        "The order of elements on the page",
-        "The visibility of elements",
-        "The size of elements",
-        "None of the above"
+        "الأردن",
+        "فلسطين",
+        "السعودية",
+        "السودان"
       ],
-      "correctAnswer": "The order of elements on the page",
-      "explanation": "'z-index' determines the stack order of elements that overlap.",
-      "topic": "CSS Layout",
-      "help": "Elements with a higher z-index are displayed in front of those with a lower z-index."
+      "correctAnswer": "فلسطين",
+      "explanation": "مصر تتشارك الحدود مع فلسطين من الشرق عبر سيناء.",
+      "topic": "الجغرافيا",
+      "help": "تعتبر منطقة سيناء من أهم المناطق الاستراتيجية."
     },
     {
-      "question": "What is the purpose of the 'data-*' attribute in HTML?",
+      "id": 23,
+      "question": "ما هو الجبل الذي يُعتقد أنه جبل موسى؟",
       "choices": [
-        "To store custom data",
-        "To style elements",
-        "To link to stylesheets",
-        "To specify scripts"
+        "جبل سانت كاترين",
+        "جبل العجمي",
+        "جبل الجلالة",
+        "جبل الطور"
       ],
-      "correctAnswer": "To store custom data",
-      "explanation": "The 'data-*' attribute allows you to store extra information on standard elements.",
-      "topic": "HTML Custom Attributes",
-      "help": "You can access this data using JavaScript."
+      "correctAnswer": "جبل سانت كاترين",
+      "explanation": "جبل سانت كاترين هو أعلى قمة في مصر ويُعتقد أنه جبل موسى.",
+      "topic": "التضاريس",
+      "help": "المنطقة تحظى بأهمية دينية كبيرة."
     },
     {
-      "question": "Which protocol is commonly used for secure web communications?",
+      "id": 24,
+      "question": "ما هو الاسم المعروف للمدينة القديمة في مصر؟",
       "choices": [
-        "HTTP",
-        "FTP",
-        "SMTP",
-        "HTTPS"
+        "طيبة",
+        "القاهرة",
+        "الإسكندرية",
+        "الجيزة"
       ],
-      "correctAnswer": "HTTPS",
-      "explanation": "HTTPS is the secure version of HTTP, using encryption for data transfer.",
-      "topic": "Web Security",
-      "help": "Always use HTTPS to protect user data."
+      "correctAnswer": "طيبة",
+      "explanation": "طيبة كانت تُعرف بأنها عاصمة مصر القديمة.",
+      "topic": "المعالم السياحية",
+      "help": "تحتوي على العديد من الآثار التاريخية."
     },
     {
-      "question": "Which of the following is a CSS framework?",
+      "id": 25,
+      "question": "ما هو الحيوان المقدس عند المصريين القدماء؟",
       "choices": [
-        "Django",
-        "Bootstrap",
-        "Node.js",
-        "Flask"
+        "الأسد",
+        "القط",
+        "الأفعى",
+        "العقاب"
       ],
-      "correctAnswer": "Bootstrap",
-      "explanation": "Bootstrap is a popular CSS framework for building responsive websites.",
-      "topic": "CSS Frameworks",
-      "help": "Frameworks can significantly speed up your development process."
+      "correctAnswer": "القط",
+      "explanation": "القط كان يُعتبر حيوانًا مقدسًا عند المصريين القدماء.",
+      "topic": "الثقافة",
+      "help": "تم تقديسه بسبب دوره في حماية المحاصيل."
     },
     {
-      "question": "What is the purpose of the 'console.log()' method in JavaScript?",
+      "id": 26,
+      "question": "ما هو الاسم الذي يُطلق على الشجرة المقدسة عند المصريين القدماء؟",
       "choices": [
-        "To log errors",
-        "To output data to the console",
-        "To display alerts",
-        "None of the above"
+        "شجرة النخيل",
+        "شجرة الزيتون",
+        "شجرة الأرز",
+        "شجرة السرو"
       ],
-      "correctAnswer": "To output data to the console",
-      "explanation": "console.log() is used for debugging purposes to print messages to the web console.",
-      "topic": "JavaScript Debugging",
-      "help": "It's a valuable tool for tracking the flow of code execution."
+      "correctAnswer": "شجرة النخيل",
+      "explanation": "شجرة النخيل كانت رمزًا للخصوبة والعطاء في الحضارة المصرية.",
+      "topic": "الثقافة",
+      "help": "تعتبر مهمة في الزراعة والاقتصاد."
     },
     {
-      "question": "What is the function of the 'fetch()' method in JavaScript?",
+      "id": 27,
+      "question": "ما هي أهم الفترات التاريخية في مصر القديمة؟",
       "choices": [
-        "To send HTTP requests",
-        "To manipulate the DOM",
-        "To handle events",
-        "To create web sockets"
+        "العصر الحجري",
+        "العصر الفرعوني",
+        "العصر الروماني",
+        "العصر الإسلامي"
       ],
-      "correctAnswer": "To send HTTP requests",
-      "explanation": "The fetch() method is used to make network requests to retrieve resources.",
-      "topic": "JavaScript Networking",
-      "help": "It's often used with asynchronous programming to handle responses."
+      "correctAnswer": "العصر الفرعوني",
+      "explanation": "العصر الفرعوني شهد بناء الأهرامات وتطور الثقافة.",
+      "topic": "التاريخ",
+      "help": "يعتبر من أهم العصور في تاريخ مصر."
     },
     {
-      "question": "What is a CSS Grid Layout?",
+      "id": 28,
+      "question": "ما هو اسم المعبد المعروف بتمثال أبو الهول؟",
       "choices": [
-        "A layout system for positioning elements",
-        "A way to create animations",
-        "A type of JavaScript function",
-        "None of the above"
+        "معبد الأقصر",
+        "معبد الكرنك",
+        "معبد الجيزة",
+        "معبد فيلة"
       ],
-      "correctAnswer": "A layout system for positioning elements",
-      "explanation": "CSS Grid Layout is a two-dimensional layout system for web pages.",
-      "topic": "CSS Layout",
-      "help": "It allows you to create complex responsive web layouts."
+      "correctAnswer": "معبد الجيزة",
+      "explanation": "تمثال أبو الهول يقع بجوار الأهرامات في الجيزة.",
+      "topic": "الآثار",
+      "help": "يعتبر رمزًا للحضارة المصرية."
     },
     {
-      "question": "What is the purpose of a 'DOCTYPE' declaration in HTML?",
+      "id": 29,
+      "question": "ما هو اسم الجبل الذي يُعتقد أنه جبل سيناء؟",
       "choices": [
-        "To define the HTML version being used",
-        "To specify the character encoding",
-        "To create a web server",
-        "To link CSS styles"
+        "جبل سانت كاترين",
+        "جبل الطور",
+        "جبل عيذاب",
+        "جبل الجلالة"
       ],
-      "correctAnswer": "To define the HTML version being used",
-      "explanation": "The DOCTYPE declaration informs the web browser about the HTML version to expect.",
-      "topic": "HTML Standards",
-      "help": "It helps ensure proper rendering of the page."
+      "correctAnswer": "جبل الطور",
+      "explanation": "جبل الطور يُعتقد أنه هو جبل سيناء الذي ورد في الكتب المقدسة.",
+      "topic": "التضاريس",
+      "help": "تاريخيًا له أهمية دينية كبيرة."
     },
     {
-      "question": "What does the term 'minification' refer to in web development?",
+      "id": 30,
+      "question": "ما هي أكبر مدينة في مصر من حيث عدد السكان؟",
       "choices": [
-        "Compressing files to reduce size",
-        "Adding comments to code",
-        "Making code more readable",
-        "None of the above"
+        "الإسكندرية",
+        "القاهرة",
+        "الأقصر",
+        "سوهاج"
       ],
-      "correctAnswer": "Compressing files to reduce size",
-      "explanation": "Minification removes unnecessary characters from code without changing its functionality.",
-      "topic": "Web Optimization",
-      "help": "It improves loading times by reducing file sizes."
+      "correctAnswer": "القاهرة",
+      "explanation": "القاهرة تُعتبر أكبر مدينة في مصر من حيث عدد السكان.",
+      "topic": "الجغرافيا",
+      "help": "تعتبر العاصمة وتحتوي على معالم تاريخية مهمة."
     },
     {
-      "question": "Which of the following is NOT a valid JavaScript loop?",
+      "id": 31,
+      "question": "ما هو الاسم الشائع لمجموعة الأهرامات في الجيزة؟",
       "choices": [
-        "for loop",
-        "while loop",
-        "do...while loop",
-        "foreach loop"
+        "أهرامات الجيزة",
+        "الأهرامات الكبرى",
+        "أهرامات الفرعون",
+        "أهرامات النيل"
       ],
-      "correctAnswer": "foreach loop",
-      "explanation": "While 'for', 'while', and 'do...while' are valid JavaScript loops, 'foreach' is not a standalone loop in JavaScript.",
-      "topic": "JavaScript Control Structures",
-      "help": "You can use 'forEach' with arrays, but it's a method, not a loop structure."
+      "correctAnswer": "أهرامات الجيزة",
+      "explanation": "أهرامات الجيزة تشمل الهرم الأكبر وهرم خفرع وهرم منقرع.",
+      "topic": "الآثار",
+      "help": "تمثل الهندسة المعمارية المذهلة للحضارة المصرية."
     },
     {
-      "question": "What is Cross-Origin Resource Sharing (CORS)?",
+      "id": 32,
+      "question": "ما هو اسم الملك الذي يُعتبر مؤسس الأسرة الفرعونية الأولى؟",
       "choices": [
-        "A security feature that allows restricted resources",
-        "A way to share cookies between sites",
-        "A method for loading resources faster",
-        "None of the above"
+        "أحمس",
+        "مينا",
+        "رمسيس",
+        "تحتمس"
       ],
-      "correctAnswer": "A security feature that allows restricted resources",
-      "explanation": "CORS is a security feature that restricts web pages from making requests to a different domain.",
-      "topic": "Web Security",
-      "help": "CORS allows servers to specify who can access their resources."
+      "correctAnswer": "مينا",
+      "explanation": "مينا هو الملك الذي وحد مصر القديمة وأسس الأسرة الفرعونية الأولى.",
+      "topic": "التاريخ",
+      "help": "يعتبر شخصية محورية في التاريخ المصري."
     },
     {
-      "question": "What is the primary use of the 'async' attribute in a <script> tag?",
+      "id": 33,
+      "question": "ما هو نوع الكتابة المستخدمة في مصر القديمة؟",
       "choices": [
-        "To load scripts asynchronously",
-        "To defer script execution",
-        "To block rendering until the script is loaded",
-        "None of the above"
+        "الهيروغليفية",
+        "الأبجدية",
+        "اللاتينية",
+        "اليونانية"
       ],
-      "correctAnswer": "To load scripts asynchronously",
-      "explanation": "The 'async' attribute allows the script to be executed asynchronously with the rest of the page.",
-      "topic": "JavaScript Loading",
-      "help": "This can improve loading performance and user experience."
+      "correctAnswer": "الهيروغليفية",
+      "explanation": "الهيروغليفية كانت النظام الكتابي الرئيسي في مصر القديمة.",
+      "topic": "الثقافة",
+      "help": "تستخدم في النقوش على المعابد والمقابر."
     },
     {
-      "question": "What is the difference between HTML and XHTML?",
+      "id": 34,
+      "question": "ما هي أهم الموانئ في مصر؟",
       "choices": [
-        "XHTML is stricter than HTML",
-        "HTML is case-sensitive, while XHTML is not",
-        "XHTML does not allow empty elements",
-        "None of the above"
+        "ميناء الإسكندرية",
+        "ميناء بورسعيد",
+        "ميناء السويس",
+        "جميع ما سبق"
       ],
-      "correctAnswer": "XHTML is stricter than HTML",
-      "explanation": "XHTML is a stricter and cleaner version of HTML based on XML principles.",
-      "topic": "HTML Standards",
-      "help": "Use proper closing tags and nesting with XHTML."
+      "correctAnswer": "جميع ما سبق",
+      "explanation": "تعتبر هذه الموانئ من الأهم في مصر وتساهم في التجارة.",
+      "topic": "الجغرافيا",
+      "help": "تلعب دورًا هامًا في الاقتصاد المصري."
     },
     {
-      "question": "Which CSS property is used to control the layout of a flex container?",
+      "id": 35,
+      "question": "ما هو أقدم أثر في مصر؟",
       "choices": [
-        "display",
-        "flex",
-        "flex-direction",
-        "all of the above"
+        "الأهرامات",
+        "تمثال أبو الهول",
+        "مقبرة توت عنخ آمون",
+        "معبد الكرنك"
       ],
-      "correctAnswer": "all of the above",
-      "explanation": "The display, flex, and flex-direction properties are used to control the flexbox layout.",
-      "topic": "CSS Flexbox",
-      "help": "Flexbox is great for building responsive layouts."
+      "correctAnswer": "تمثال أبو الهول",
+      "explanation": "يعتبر تمثال أبو الهول من أقدم المعالم الأثرية في مصر.",
+      "topic": "الآثار",
+      "help": "يعود تاريخه إلى حوالي 2500 قبل الميلاد."
     },
     {
-      "question": "What does the term 'callback' refer to in JavaScript?",
+      "id": 36,
+      "question": "ما هو اسم المحيط الذي يحيط بمصر من الشمال؟",
       "choices": [
-        "A function executed after another function completes",
-        "A way to loop through an array",
-        "An error handling mechanism",
-        "None of the above"
+        "المحيط الأطلسي",
+        "البحر الأبيض المتوسط",
+        "البحر الأحمر",
+        "المحيط الهندي"
       ],
-      "correctAnswer": "A function executed after another function completes",
-      "explanation": "A callback is a function passed into another function as an argument and is executed later.",
-      "topic": "JavaScript Functions",
-      "help": "Callbacks are essential for asynchronous programming."
+      "correctAnswer": "البحر الأبيض المتوسط",
+      "explanation": "البحر الأبيض المتوسط يحيط بمصر من الشمال.",
+      "topic": "الجغرافيا",
+      "help": "يلعب دورًا هامًا في التجارة البحرية."
     },
     {
-      "question": "What is the purpose of the 'this' keyword in JavaScript?",
+      "id": 37,
+      "question": "ما هي أهم المصادر الطبيعية في مصر؟",
       "choices": [
-        "To refer to the global object",
-        "To refer to the calling object",
-        "To create a new object",
-        "None of the above"
+        "البترول",
+        "الذهب",
+        "المياه",
+        "جميع ما سبق"
       ],
-      "correctAnswer": "To refer to the calling object",
-      "explanation": "The 'this' keyword refers to the object that is currently executing the function.",
-      "topic": "JavaScript Scope",
-      "help": "Understanding 'this' is crucial for object-oriented programming in JavaScript."
+      "correctAnswer": "جميع ما سبق",
+      "explanation": "تعتبر الموارد الطبيعية ضرورية للاقتصاد المصري.",
+      "topic": "الاقتصاد",
+      "help": "تساهم في تطوير مختلف القطاعات."
     },
     {
-      "question": "What is a media query in CSS?",
+      "id": 38,
+      "question": "ما هو الاسم الشائع للنيل عند المصريين القدماء؟",
       "choices": [
-        "A way to style media files",
-        "A technique for responsive design",
-        "A method for loading media files",
-        "None of the above"
+        "نهر الحياة",
+        "نهر الخير",
+        "نهر الأمل",
+        "نهر الأنهار"
       ],
-      "correctAnswer": "A technique for responsive design",
-      "explanation": "Media queries allow you to apply styles based on the viewport's characteristics.",
-      "topic": "CSS Responsive Design",
-      "help": "They help create adaptable layouts for different devices."
+      "correctAnswer": "نهر الحياة",
+      "explanation": "كان يُطلق عليه هذا الاسم لكونه المصدر الرئيسي للحياة.",
+      "topic": "الثقافة",
+      "help": "يمثل أهمية حيوية في تاريخ مصر."
     },
     {
-      "question": "What does the term 'SEO' stand for?",
+      "id": 39,
+      "question": "ما هو المعلم السياحي المشهور في جنوب مصر؟",
       "choices": [
-        "Search Engine Optimization",
-        "Social Engagement Optimization",
-        "Site Experience Optimization",
-        "Server Efficiency Optimization"
+        "الأقصر",
+        "الجيزة",
+        "القاهرة",
+        "الإسكندرية"
       ],
-      "correctAnswer": "Search Engine Optimization",
-      "explanation": "SEO is the practice of improving the ranking of a website in search engine results.",
-      "topic": "Web Marketing",
-      "help": "Effective SEO can increase website traffic."
+      "correctAnswer": "الأقصر",
+      "explanation": "الأقصر تحتوي على العديد من المعالم السياحية والأثرية.",
+      "topic": "المعالم السياحية",
+      "help": "تعتبر واحدة من أهم الوجهات السياحية في مصر."
     },
     {
-      "question": "Which HTML attribute specifies an alternate text for an image?",
+      "id": 40,
+      "question": "ما هو الاسم الشائع لـ 'بلد الأهرامات'؟",
       "choices": [
-        "title",
-        "src",
-        "alt",
-        "href"
+        "مصر",
+        "السودان",
+        "الأردن",
+        "العراق"
       ],
-      "correctAnswer": "alt",
-      "explanation": "The 'alt' attribute provides alternative text for an image if it cannot be displayed.",
-      "topic": "HTML Attributes",
-      "help": "This is important for accessibility."
+      "correctAnswer": "مصر",
+      "explanation": "مصر تُعرف بهذا الاسم بسبب وجود الأهرامات فيها.",
+      "topic": "الثقافة",
+      "help": "تعتبر رمزًا لحضارة قديمة."
     },
     {
-      "question": "What is the purpose of the 'form' element in HTML?",
+      "id": 41,
+      "question": "ما هي أطول قناة في مصر؟",
       "choices": [
-        "To create interactive forms for user input",
-        "To define a section of a webpage",
-        "To group elements together",
-        "To specify metadata"
+        "قناة السويس",
+        "قناة الملوك",
+        "قناة النيل",
+        "قناة الإسكندرية"
       ],
-      "correctAnswer": "To create interactive forms for user input",
-      "explanation": "The 'form' element is used to collect user input.",
-      "topic": "HTML Forms",
-      "help": "Forms can include text fields, buttons, checkboxes, and more."
+      "correctAnswer": "قناة السويس",
+      "explanation": "قناة السويس هي أهم ممر مائي في العالم وتربط بين البحر الأحمر والمتوسط.",
+      "topic": "الجغرافيا",
+      "help": "تعتبر شريانًا حيويًا للتجارة العالمية."
     },
     {
-      "question": "What is the function of the 'validate()' method in JavaScript?",
+      "id": 42,
+      "question": "من هو المؤرخ المصري المعروف بأنه 'أبو التاريخ'؟",
       "choices": [
-        "To check the correctness of an input",
-        "To send form data to the server",
-        "To parse JSON data",
-        "To format dates"
+        "هيرودوت",
+        "سليم حسن",
+        "زاهي حواس",
+        "أحمد فخري"
       ],
-      "correctAnswer": "To check the correctness of an input",
-      "explanation": "The validate() method is used to check if the input data meets certain criteria.",
-      "topic": "JavaScript Form Handling",
-      "help": "Validation helps ensure data integrity before submission."
+      "correctAnswer": "هيرودوت",
+      "explanation": "هيرودوت هو مؤرخ يوناني عُرف بلقب 'أبو التاريخ'.",
+      "topic": "التاريخ",
+      "help": "كتب عن مصر في القرن الخامس قبل الميلاد."
     },
     {
-      "question": "Which of the following is an example of a JavaScript event?",
+      "id": 43,
+      "question": "ما هو الاسم الشائع لـ 'مدينة الشمس' في مصر القديمة؟",
       "choices": [
-        "click",
-        "submit",
-        "load",
-        "All of the above"
+        "الأقصر",
+        "طيبة",
+        "سقارة",
+        "هرم ميدوم"
       ],
-      "correctAnswer": "All of the above",
-      "explanation": "Click, submit, and load are all events that can trigger JavaScript functions.",
-      "topic": "JavaScript Events",
-      "help": "Events are crucial for interactive web applications."
+      "correctAnswer": "الأقصر",
+      "explanation": "الأقصر تُعرف بهذا الاسم بسبب ارتباطها بالشمس في الثقافة المصرية.",
+      "topic": "الثقافة",
+      "help": "تعتبر مركزًا دينيًا وثقافيًا هامًا."
     },
     {
-      "question": "What is the purpose of the 'float' property in CSS?",
+      "id": 44,
+      "question": "ما هو نوع الزراعة التي كانت تُمارس في مصر القديمة؟",
       "choices": [
-        "To position an element to the left or right",
-        "To control the stacking order of elements",
-        "To change text alignment",
-        "None of the above"
+        "الزراعة المطرية",
+        "الزراعة المروية",
+        "الزراعة العضوية",
+        "الزراعة الصناعية"
       ],
-      "correctAnswer": "To position an element to the left or right",
-      "explanation": "The 'float' property is used for positioning and layout in CSS.",
-      "topic": "CSS Layout",
-      "help": "It's often used to create text wraps around images."
+      "correctAnswer": "الزراعة المروية",
+      "explanation": "كانت الزراعة المروية تعتمد على نهر النيل لري المحاصيل.",
+      "topic": "الزراعة",
+      "help": "تعتبر الزراعة ركنًا أساسيًا في الاقتصاد المصري."
     },
     {
-      "question": "Which HTML tag is used to define an unordered list?",
+      "id": 45,
+      "question": "ما هو الاسم الشائع لمصر في العصور القديمة؟",
       "choices": [
-        "<ol>",
-        "<ul>",
-        "<list>",
-        "<li>"
+        "مصر السفلى",
+        "مصر العليا",
+        "أرض الكنانة",
+        "أرض الفراعنة"
       ],
-      "correctAnswer": "<ul>",
-      "explanation": "The <ul> tag defines an unordered list in HTML.",
-      "topic": "HTML Lists",
-      "help": "Items in the list are typically marked with bullet points."
+      "correctAnswer": "أرض الكنانة",
+      "explanation": "أطلق على مصر هذا الاسم بسبب غناها بالموارد الطبيعية.",
+      "topic": "الثقافة",
+      "help": "تعتبر رمزًا للهوية الثقافية."
     },
     {
-      "question": "What is the purpose of the 'debugger' statement in JavaScript?",
+      "id": 46,
+      "question": "ما هو الاسم العلمي للنيل؟",
       "choices": [
-        "To pause code execution for debugging",
-        "To handle errors",
-        "To create breakpoints",
-        "None of the above"
+        "Nile River",
+        "Amazon River",
+        "Yangtze River",
+        "Ganges River"
       ],
-      "correctAnswer": "To pause code execution for debugging",
-      "explanation": "The 'debugger' statement stops the execution of JavaScript and calls the debugger.",
-      "topic": "JavaScript Debugging",
-      "help": "It's useful for troubleshooting code."
+      "correctAnswer": "Nile River",
+      "explanation": "النيل يُعرف عالميًا بهذا الاسم.",
+      "topic": "الجغرافيا",
+      "help": "يُعتبر أطول نهر في العالم."
     },
     {
-      "question": "What is the primary purpose of a CSS reset?",
+      "id": 47,
+      "question": "ما هي أكثر المدن زيارة في مصر؟",
       "choices": [
-        "To remove default browser styles",
-        "To set global styles",
-        "To create animations",
-        "None of the above"
+        "الأقصر",
+        "القاهرة",
+        "الإسكندرية",
+        "شرم الشيخ"
       ],
-      "correctAnswer": "To remove default browser styles",
-      "explanation": "A CSS reset is used to minimize browser inconsistencies in default styling.",
-      "topic": "CSS Styling",
-      "help": "It helps achieve a consistent look across different browsers."
+      "correctAnswer": "القاهرة",
+      "explanation": "القاهرة تُعتبر أكثر المدن جذبًا للسياح في مصر.",
+      "topic": "المعالم السياحية",
+      "help": "تحتوي على العديد من المعالم التاريخية."
     },
     {
-      "question": "What is a CDN?",
+      "id": 48,
+      "question": "ما هو المعلم الذي يضم أكبر عدد من التماثيل في مصر؟",
       "choices": [
-        "Content Delivery Network",
-        "Central Data Node",
-        "Common Data Network",
-        "None of the above"
+        "معبد الكرنك",
+        "معبد الأقصر",
+        "هرم خوفو",
+        "تمثال أبو الهول"
       ],
-      "correctAnswer": "Content Delivery Network",
-      "explanation": "A CDN is a system of distributed servers that deliver web content based on the user's location.",
-      "topic": "Web Performance",
-      "help": "CDNs improve loading speed and reliability."
+      "correctAnswer": "معبد الكرنك",
+      "explanation": "معبد الكرنك يضم عددًا هائلًا من التماثيل والنقوش.",
+      "topic": "الآثار",
+      "help": "يعتبر من أكبر المعابد في العالم."
     },
     {
-      "question": "What is the purpose of the 'transform' property in CSS?",
+      "id": 49,
+      "question": "ما هو أعلى نقطة في مصر؟",
       "choices": [
-        "To change the position of an element",
-        "To apply 2D or 3D transformations",
-        "To animate elements",
-        "None of the above"
+        "جبل سانت كاترين",
+        "جبل الطور",
+        "جبل عيذاب",
+        "جبل الجلالة"
       ],
-      "correctAnswer": "To apply 2D or 3D transformations",
-      "explanation": "The 'transform' property allows you to rotate, scale, and translate elements.",
-      "topic": "CSS Transforms",
-      "help": "Transforms can enhance visual design and user experience."
+      "correctAnswer": "جبل سانت كاترين",
+      "explanation": "جبل سانت كاترين هو أعلى قمة في مصر بارتفاع 2,629 متر.",
+      "topic": "التضاريس",
+      "help": "يعتبر موقعًا سياحيًا شهيرًا."
     },
     {
-      "question": "Which of the following is used to create a comment in JavaScript?",
+      "id": 50,
+      "question": "ما هو أول مستشفى في مصر؟",
       "choices": [
-        "// This is a comment",
-        "<!-- This is a comment -->",
-        "/* This is a comment */",
-        "Both A and C"
+        "مستشفى قصر العيني",
+        "مستشفى الجلاء",
+        "مستشفى الساحل",
+        "مستشفى الإمام"
       ],
-      "correctAnswer": "Both A and C",
-      "explanation": "JavaScript comments can be single-line (//) or multi-line (/* */).",
-      "topic": "JavaScript Syntax",
-      "help": "Comments are crucial for documentation and code readability."
-    },
-    {
-      "question": "What is the role of a web browser?",
-      "choices": [
-        "To display web pages",
-        "To run server-side scripts",
-        "To manage databases",
-        "None of the above"
-      ],
-      "correctAnswer": "To display web pages",
-      "explanation": "Web browsers retrieve, present, and navigate information on the World Wide Web.",
-      "topic": "Web Technologies",
-      "help": "Popular browsers include Chrome, Firefox, and Safari."
-    },
-    {
-      "question": "What is the difference between padding and margin in CSS?",
-      "choices": [
-        "Padding is inside an element, margin is outside",
-        "Margin is inside an element, padding is outside",
-        "Both are the same",
-        "None of the above"
-      ],
-      "correctAnswer": "Padding is inside an element, margin is outside",
-      "explanation": "Padding creates space within an element, while margin creates space outside of it.",
-      "topic": "CSS Box Model",
-      "help": "Understanding the box model is crucial for layout design."
-    },
-    {
-      "question": "What does the 'hover' pseudo-class do in CSS?",
-      "choices": [
-        "Styles an element when the user hovers over it",
-        "Styles an element when it is clicked",
-        "Styles an element when it is focused",
-        "None of the above"
-      ],
-      "correctAnswer": "Styles an element when the user hovers over it",
-      "explanation": "The 'hover' pseudo-class applies styles to elements when a user hovers their cursor over them.",
-      "topic": "CSS Pseudo-Classes",
-      "help": "It's commonly used for interactive elements like buttons."
-    },
-    {
-      "question": "What is the function of the 'localStorage' object in JavaScript?",
-      "choices": [
-        "To store data locally in the browser",
-        "To handle network requests",
-        "To manipulate the DOM",
-        "None of the above"
-      ],
-      "correctAnswer": "To store data locally in the browser",
-      "explanation": "The 'localStorage' object allows you to store key-value pairs in a web browser with no expiration time.",
-      "topic": "JavaScript Storage",
-      "help": "It's useful for saving user preferences and application state."
-    },
-    {
-      "question": "What is a CSS selector?",
-      "choices": [
-        "A way to select HTML elements to style",
-        "A method to retrieve data",
-        "An event in JavaScript",
-        "None of the above"
-      ],
-      "correctAnswer": "A way to select HTML elements to style",
-      "explanation": "CSS selectors are patterns used to select elements you want to style.",
-      "topic": "CSS Basics",
-      "help": "Common selectors include class, ID, and element selectors."
-    },
-    {
-      "question": "What is the function of the 'splice()' method in JavaScript?",
-      "choices": [
-        "To add or remove elements from an array",
-        "To combine two arrays",
-        "To create a new array",
-        "None of the above"
-      ],
-      "correctAnswer": "To add or remove elements from an array",
-      "explanation": "The splice() method changes the contents of an array by removing or replacing existing elements.",
-      "topic": "JavaScript Arrays",
-      "help": "It can also insert new elements at a specified index."
-    },
-    {
-      "question": "What does the 'display' property in CSS control?",
-      "choices": [
-        "The box model of an element",
-        "The visibility of an element",
-        "The layout behavior of an element",
-        "None of the above"
-      ],
-      "correctAnswer": "The layout behavior of an element",
-      "explanation": "The 'display' property specifies the display behavior of an element, such as block, inline, or flex.",
-      "topic": "CSS Layout",
-      "help": "It influences how elements flow in the layout."
-    },
-    {
-      "question": "What does the 'forEach()' method do in JavaScript?",
-      "choices": [
-        "Iterates over an array",
-        "Filters an array",
-        "Reduces an array",
-        "None of the above"
-      ],
-      "correctAnswer": "Iterates over an array",
-      "explanation": "The forEach() method executes a provided function once for each array element.",
-      "topic": "JavaScript Arrays",
-      "help": "It's useful for applying a function to each item in an array."
-    },
-    {
-      "question": "What is the purpose of the 'filter()' method in JavaScript?",
-      "choices": [
-        "To create a new array with elements that pass a test",
-        "To add elements to an array",
-        "To modify elements in an array",
-        "None of the above"
-      ],
-      "correctAnswer": "To create a new array with elements that pass a test",
-      "explanation": "The filter() method creates a new array with all elements that pass the test implemented by the provided function.",
-      "topic": "JavaScript Arrays",
-      "help": "It's useful for selecting specific items from an array."
-    },
-    {
-      "question": "What does the 'grid-template-columns' property do in CSS Grid?",
-      "choices": [
-        "Defines the number of columns in a grid",
-        "Specifies the height of columns",
-        "Sets the gap between columns",
-        "None of the above"
-      ],
-      "correctAnswer": "Defines the number of columns in a grid",
-      "explanation": "The 'grid-template-columns' property specifies the size of the columns in a grid layout.",
-      "topic": "CSS Grid",
-      "help": "It helps create responsive layouts with varying column sizes."
+      "correctAnswer": "مستشفى قصر العيني",
+      "explanation": "مستشفى قصر العيني هو أقدم مستشفى في مصر وأحد أقدم المستشفيات في العالم.",
+      "topic": "الصحة",
+      "help": "أسس في القرن التاسع عشر."
     }
   ]
 }
