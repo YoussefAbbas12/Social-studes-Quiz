@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="images/logo.ico" type="image/x-icon">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <title>Programming Quiz</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+    <div id="particles-js" 
+        style="position: absolute; z-index: -1; top: 0;left: 0; height: 100vh; width: 100%;">
+    </div>
+
+
+    <div class="quiz-container" id="quizContainer">
+        <h1>Quiz Time !</h1>
+        <input type="range" id="numQuestions" min="1" max="50" value="8" oninput="updateQuestionCount(this.value)">
+        <span id="questionCount">10</span>
+        <br>
+        <button class="start-btn" onclick="startQuiz()">Start Quiz</button>
+    </div>
+    <div class="quiz-content" id="quizContent">
+        <!-- Quiz questions will be displayed here -->
+    </div>
+    <div class="quiz-actions" id="quizActions" style="display: none;">
+        <button class="restart-btn" onclick="downloadScreenshotsPDF()">Download Quiz</button>
+        <button class="new-quiz-btn" style="display: flex;" onclick="startNewQuiz()">New Quiz </button>
+    </div>
+
+
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+
+    <script>
+        particlesJS.load('particles-js', 'particles.json', function () {
+            console.log('particales.json loaded...');
+        });
+    </script>
+    
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jspdf/2.5.1/jspdf.umd.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+
+    <script src="js/script.js"></script>
+</body>
+</html>

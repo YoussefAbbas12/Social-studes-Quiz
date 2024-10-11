@@ -1,0 +1,787 @@
+{
+  "totalQuestions": 60,
+  "questions": [
+    {
+      "question": "What does HTML stand for?",
+      "choices": [
+        "Hyper Text Markup Language",
+        "High Text Markup Language",
+        "Hyper Tabular Markup Language",
+        "None of the above"
+      ],
+      "correctAnswer": "Hyper Text Markup Language",
+      "explanation": "HTML is the standard markup language used to create web pages.",
+      "topic": "HTML Basics",
+      "help": "HTML is essential for structuring web content."
+    },
+    {
+      "question": "Which HTML element is used to define the footer of a document?",
+      "choices": [
+        "<footer>",
+        "<bottom>",
+        "<section>",
+        "<aside>"
+      ],
+      "correctAnswer": "<footer>",
+      "explanation": "The <footer> element is used to specify a footer for a document or section.",
+      "topic": "HTML Elements",
+      "help": "Footers typically contain author information, copyright, or related documents."
+    },
+    {
+      "question": "Which of the following is a JavaScript framework?",
+      "choices": [
+        "React",
+        "Django",
+        "Ruby on Rails",
+        "Laravel"
+      ],
+      "correctAnswer": "React",
+      "explanation": "React is a JavaScript library for building user interfaces, often used in single-page applications.",
+      "topic": "JavaScript Frameworks",
+      "help": "Frameworks help streamline development by providing pre-written code for common tasks."
+    },
+    {
+      "question": "What is the correct syntax for referring to an external script called 'script.js'?",
+      "choices": [
+        "<script src='script.js'>",
+        "<script href='script.js'>",
+        "<script name='script.js'>",
+        "<script file='script.js'>"
+      ],
+      "correctAnswer": "<script src='script.js'>",
+      "explanation": "The 'src' attribute is used to specify the URL of the external script file.",
+      "topic": "JavaScript Basics",
+      "help": "Always use 'src' for external JavaScript files in your HTML."
+    },
+    {
+      "question": "Which CSS property controls the text size?",
+      "choices": [
+        "font-size",
+        "text-size",
+        "font-style",
+        "text-style"
+      ],
+      "correctAnswer": "font-size",
+      "explanation": "The 'font-size' property is used to set the size of the font.",
+      "topic": "CSS Basics",
+      "help": "You can use units like 'px', 'em', or '%' to define font size."
+    },
+    {
+      "question": "What does CSS stand for?",
+      "choices": [
+        "Creative Style Sheets",
+        "Cascading Style Sheets",
+        "Computer Style Sheets",
+        "Colorful Style Sheets"
+      ],
+      "correctAnswer": "Cascading Style Sheets",
+      "explanation": "CSS is used to control the layout and style of a webpage.",
+      "topic": "CSS Basics",
+      "help": "CSS allows for the separation of content and presentation."
+    },
+    {
+      "question": "Which of the following is a valid CSS selector?",
+      "choices": [
+        "#header",
+        ".header",
+        "header",
+        "All of the above"
+      ],
+      "correctAnswer": "All of the above",
+      "explanation": "All options are valid CSS selectors for targeting elements.",
+      "topic": "CSS Selectors",
+      "help": "ID selectors use '#', class selectors use '.', and type selectors use the element name."
+    },
+    {
+      "question": "What is the purpose of the 'alt' attribute in an <img> tag?",
+      "choices": [
+        "To specify an image source",
+        "To provide alternative text for the image",
+        "To define image dimensions",
+        "To add a border to the image"
+      ],
+      "correctAnswer": "To provide alternative text for the image",
+      "explanation": "The 'alt' attribute provides text when an image cannot be displayed.",
+      "topic": "HTML Accessibility",
+      "help": "Using 'alt' text improves accessibility for visually impaired users."
+    },
+    {
+      "question": "Which method is used to select an element with a specific ID in JavaScript?",
+      "choices": [
+        "getElementById()",
+        "querySelector()",
+        "getElementsByClassName()",
+        "querySelectorAll()"
+      ],
+      "correctAnswer": "getElementById()",
+      "explanation": "The getElementById() method returns the element that has the ID attribute with the specified value.",
+      "topic": "JavaScript DOM Manipulation",
+      "help": "This method is commonly used to manipulate specific elements on a page."
+    },
+    {
+      "question": "What is the main purpose of using frameworks in web development?",
+      "choices": [
+        "To write code faster",
+        "To enforce design patterns",
+        "To simplify complex tasks",
+        "All of the above"
+      ],
+      "correctAnswer": "All of the above",
+      "explanation": "Frameworks provide tools and libraries that help streamline development processes.",
+      "topic": "Web Development Frameworks",
+      "help": "Frameworks often come with pre-built functions, making coding more efficient."
+    },
+    {
+      "question": "What does the 'position' property in CSS do?",
+      "choices": [
+        "Sets the position of an element",
+        "Defines how an element is positioned in the document",
+        "Both A and B",
+        "None of the above"
+      ],
+      "correctAnswer": "Both A and B",
+      "explanation": "The 'position' property controls the positioning method used for an element.",
+      "topic": "CSS Positioning",
+      "help": "Common values include static, relative, absolute, fixed, and sticky."
+    },
+    {
+      "question": "Which of the following is a backend technology?",
+      "choices": [
+        "JavaScript",
+        "Node.js",
+        "HTML",
+        "CSS"
+      ],
+      "correctAnswer": "Node.js",
+      "explanation": "Node.js is a runtime environment that allows for server-side scripting using JavaScript.",
+      "topic": "Backend Technologies",
+      "help": "Backend technologies handle the server-side logic of web applications."
+    },
+    {
+      "question": "What is a RESTful API?",
+      "choices": [
+        "A method for interacting with databases",
+        "An architectural style for designing networked applications",
+        "A way to create mobile applications",
+        "None of the above"
+      ],
+      "correctAnswer": "An architectural style for designing networked applications",
+      "explanation": "RESTful APIs use HTTP requests to access and use data.",
+      "topic": "APIs",
+      "help": "They are stateless and rely on standard HTTP methods like GET, POST, PUT, DELETE."
+    },
+    {
+      "question": "Which HTML element is used to create a hyperlink?",
+      "choices": [
+        "<link>",
+        "<a>",
+        "<href>",
+        "<hyperlink>"
+      ],
+      "correctAnswer": "<a>",
+      "explanation": "The <a> element is used to define hyperlinks that link to other web pages.",
+      "topic": "HTML Links",
+      "help": "Use the 'href' attribute to specify the URL of the page the link goes to."
+    },
+    {
+      "question": "What is the difference between '== and '===' in JavaScript?",
+      "choices": [
+        "There is no difference",
+        "== checks for value equality, while === checks for both value and type equality",
+        "== checks for type equality, while === checks for value equality",
+        "None of the above"
+      ],
+      "correctAnswer": "== checks for value equality, while === checks for both value and type equality",
+      "explanation": "'==' performs type coercion, while '===' does not.",
+      "topic": "JavaScript Comparison Operators",
+      "help": "Use '===' for strict comparisons to avoid unexpected results."
+    },
+    {
+      "question": "What is the purpose of the 'viewport' meta tag in HTML?",
+      "choices": [
+        "To control the layout on mobile browsers",
+        "To set the character encoding",
+        "To specify the title of the page",
+        "To add a favicon"
+      ],
+      "correctAnswer": "To control the layout on mobile browsers",
+      "explanation": "The viewport meta tag allows for responsive web design by controlling the layout on different devices.",
+      "topic": "Responsive Design",
+      "help": "It helps ensure your website is mobile-friendly."
+    },
+    {
+      "question": "What does AJAX stand for?",
+      "choices": [
+        "Asynchronous JavaScript and XML",
+        "Advanced Java and XML",
+        "Asynchronous JSON and XML",
+        "All JavaScript and XML"
+      ],
+      "correctAnswer": "Asynchronous JavaScript and XML",
+      "explanation": "AJAX allows web pages to be updated asynchronously by exchanging data with a web server.",
+      "topic": "Web Technologies",
+      "help": "AJAX enables dynamic and interactive web applications."
+    },
+    {
+      "question": "What is the primary function of a web server?",
+      "choices": [
+        "To store data",
+        "To serve web pages",
+        "To process requests",
+
+
+        "All of the above"
+      ],
+      "correctAnswer": "All of the above",
+      "explanation": "A web server stores, processes, and delivers web pages to clients.",
+      "topic": "Web Servers",
+      "help": "Web servers handle requests via HTTP and HTTPS."
+    },
+    {
+      "question": "Which CSS property is used to change the background color of an element?",
+      "choices": [
+        "color",
+        "background-color",
+        "bgcolor",
+        "background"
+      ],
+      "correctAnswer": "background-color",
+      "explanation": "The 'background-color' property sets the background color of an element.",
+      "topic": "CSS Styling",
+      "help": "You can use color names, hex codes, or RGB values."
+    },
+    {
+      "question": "What does the term 'responsive web design' refer to?",
+      "choices": [
+        "Web design that adapts to different screen sizes",
+        "Designing websites for desktop only",
+        "Web design that uses fixed layouts",
+        "None of the above"
+      ],
+      "correctAnswer": "Web design that adapts to different screen sizes",
+      "explanation": "Responsive web design ensures that web pages render well on various devices.",
+      "topic": "Web Design",
+      "help": "Techniques include fluid grids and flexible images."
+    },
+    {
+      "question": "Which of the following is a valid JavaScript data type?",
+      "choices": [
+        "String",
+        "Boolean",
+        "Number",
+        "All of the above"
+      ],
+      "correctAnswer": "All of the above",
+      "explanation": "JavaScript has several data types, including strings, booleans, and numbers.",
+      "topic": "JavaScript Data Types",
+      "help": "Understanding data types is crucial for effective programming."
+    },
+    {
+      "question": "What does the 'z-index' property in CSS control?",
+      "choices": [
+        "The order of elements on the page",
+        "The visibility of elements",
+        "The size of elements",
+        "None of the above"
+      ],
+      "correctAnswer": "The order of elements on the page",
+      "explanation": "'z-index' determines the stack order of elements that overlap.",
+      "topic": "CSS Layout",
+      "help": "Elements with a higher z-index are displayed in front of those with a lower z-index."
+    },
+    {
+      "question": "What is the purpose of the 'data-*' attribute in HTML?",
+      "choices": [
+        "To store custom data",
+        "To style elements",
+        "To link to stylesheets",
+        "To specify scripts"
+      ],
+      "correctAnswer": "To store custom data",
+      "explanation": "The 'data-*' attribute allows you to store extra information on standard elements.",
+      "topic": "HTML Custom Attributes",
+      "help": "You can access this data using JavaScript."
+    },
+    {
+      "question": "Which protocol is commonly used for secure web communications?",
+      "choices": [
+        "HTTP",
+        "FTP",
+        "SMTP",
+        "HTTPS"
+      ],
+      "correctAnswer": "HTTPS",
+      "explanation": "HTTPS is the secure version of HTTP, using encryption for data transfer.",
+      "topic": "Web Security",
+      "help": "Always use HTTPS to protect user data."
+    },
+    {
+      "question": "Which of the following is a CSS framework?",
+      "choices": [
+        "Django",
+        "Bootstrap",
+        "Node.js",
+        "Flask"
+      ],
+      "correctAnswer": "Bootstrap",
+      "explanation": "Bootstrap is a popular CSS framework for building responsive websites.",
+      "topic": "CSS Frameworks",
+      "help": "Frameworks can significantly speed up your development process."
+    },
+    {
+      "question": "What is the purpose of the 'console.log()' method in JavaScript?",
+      "choices": [
+        "To log errors",
+        "To output data to the console",
+        "To display alerts",
+        "None of the above"
+      ],
+      "correctAnswer": "To output data to the console",
+      "explanation": "console.log() is used for debugging purposes to print messages to the web console.",
+      "topic": "JavaScript Debugging",
+      "help": "It's a valuable tool for tracking the flow of code execution."
+    },
+    {
+      "question": "What is the function of the 'fetch()' method in JavaScript?",
+      "choices": [
+        "To send HTTP requests",
+        "To manipulate the DOM",
+        "To handle events",
+        "To create web sockets"
+      ],
+      "correctAnswer": "To send HTTP requests",
+      "explanation": "The fetch() method is used to make network requests to retrieve resources.",
+      "topic": "JavaScript Networking",
+      "help": "It's often used with asynchronous programming to handle responses."
+    },
+    {
+      "question": "What is a CSS Grid Layout?",
+      "choices": [
+        "A layout system for positioning elements",
+        "A way to create animations",
+        "A type of JavaScript function",
+        "None of the above"
+      ],
+      "correctAnswer": "A layout system for positioning elements",
+      "explanation": "CSS Grid Layout is a two-dimensional layout system for web pages.",
+      "topic": "CSS Layout",
+      "help": "It allows you to create complex responsive web layouts."
+    },
+    {
+      "question": "What is the purpose of a 'DOCTYPE' declaration in HTML?",
+      "choices": [
+        "To define the HTML version being used",
+        "To specify the character encoding",
+        "To create a web server",
+        "To link CSS styles"
+      ],
+      "correctAnswer": "To define the HTML version being used",
+      "explanation": "The DOCTYPE declaration informs the web browser about the HTML version to expect.",
+      "topic": "HTML Standards",
+      "help": "It helps ensure proper rendering of the page."
+    },
+    {
+      "question": "What does the term 'minification' refer to in web development?",
+      "choices": [
+        "Compressing files to reduce size",
+        "Adding comments to code",
+        "Making code more readable",
+        "None of the above"
+      ],
+      "correctAnswer": "Compressing files to reduce size",
+      "explanation": "Minification removes unnecessary characters from code without changing its functionality.",
+      "topic": "Web Optimization",
+      "help": "It improves loading times by reducing file sizes."
+    },
+    {
+      "question": "Which of the following is NOT a valid JavaScript loop?",
+      "choices": [
+        "for loop",
+        "while loop",
+        "do...while loop",
+        "foreach loop"
+      ],
+      "correctAnswer": "foreach loop",
+      "explanation": "While 'for', 'while', and 'do...while' are valid JavaScript loops, 'foreach' is not a standalone loop in JavaScript.",
+      "topic": "JavaScript Control Structures",
+      "help": "You can use 'forEach' with arrays, but it's a method, not a loop structure."
+    },
+    {
+      "question": "What is Cross-Origin Resource Sharing (CORS)?",
+      "choices": [
+        "A security feature that allows restricted resources",
+        "A way to share cookies between sites",
+        "A method for loading resources faster",
+        "None of the above"
+      ],
+      "correctAnswer": "A security feature that allows restricted resources",
+      "explanation": "CORS is a security feature that restricts web pages from making requests to a different domain.",
+      "topic": "Web Security",
+      "help": "CORS allows servers to specify who can access their resources."
+    },
+    {
+      "question": "What is the primary use of the 'async' attribute in a <script> tag?",
+      "choices": [
+        "To load scripts asynchronously",
+        "To defer script execution",
+        "To block rendering until the script is loaded",
+        "None of the above"
+      ],
+      "correctAnswer": "To load scripts asynchronously",
+      "explanation": "The 'async' attribute allows the script to be executed asynchronously with the rest of the page.",
+      "topic": "JavaScript Loading",
+      "help": "This can improve loading performance and user experience."
+    },
+    {
+      "question": "What is the difference between HTML and XHTML?",
+      "choices": [
+        "XHTML is stricter than HTML",
+        "HTML is case-sensitive, while XHTML is not",
+        "XHTML does not allow empty elements",
+        "None of the above"
+      ],
+      "correctAnswer": "XHTML is stricter than HTML",
+      "explanation": "XHTML is a stricter and cleaner version of HTML based on XML principles.",
+      "topic": "HTML Standards",
+      "help": "Use proper closing tags and nesting with XHTML."
+    },
+    {
+      "question": "Which CSS property is used to control the layout of a flex container?",
+      "choices": [
+        "display",
+        "flex",
+        "flex-direction",
+        "all of the above"
+      ],
+      "correctAnswer": "all of the above",
+      "explanation": "The display, flex, and flex-direction properties are used to control the flexbox layout.",
+      "topic": "CSS Flexbox",
+      "help": "Flexbox is great for building responsive layouts."
+    },
+    {
+      "question": "What does the term 'callback' refer to in JavaScript?",
+      "choices": [
+        "A function executed after another function completes",
+        "A way to loop through an array",
+        "An error handling mechanism",
+        "None of the above"
+      ],
+      "correctAnswer": "A function executed after another function completes",
+      "explanation": "A callback is a function passed into another function as an argument and is executed later.",
+      "topic": "JavaScript Functions",
+      "help": "Callbacks are essential for asynchronous programming."
+    },
+    {
+      "question": "What is the purpose of the 'this' keyword in JavaScript?",
+      "choices": [
+        "To refer to the global object",
+        "To refer to the calling object",
+        "To create a new object",
+        "None of the above"
+      ],
+      "correctAnswer": "To refer to the calling object",
+      "explanation": "The 'this' keyword refers to the object that is currently executing the function.",
+      "topic": "JavaScript Scope",
+      "help": "Understanding 'this' is crucial for object-oriented programming in JavaScript."
+    },
+    {
+      "question": "What is a media query in CSS?",
+      "choices": [
+        "A way to style media files",
+        "A technique for responsive design",
+        "A method for loading media files",
+        "None of the above"
+      ],
+      "correctAnswer": "A technique for responsive design",
+      "explanation": "Media queries allow you to apply styles based on the viewport's characteristics.",
+      "topic": "CSS Responsive Design",
+      "help": "They help create adaptable layouts for different devices."
+    },
+    {
+      "question": "What does the term 'SEO' stand for?",
+      "choices": [
+        "Search Engine Optimization",
+        "Social Engagement Optimization",
+        "Site Experience Optimization",
+        "Server Efficiency Optimization"
+      ],
+      "correctAnswer": "Search Engine Optimization",
+      "explanation": "SEO is the practice of improving the ranking of a website in search engine results.",
+      "topic": "Web Marketing",
+      "help": "Effective SEO can increase website traffic."
+    },
+    {
+      "question": "Which HTML attribute specifies an alternate text for an image?",
+      "choices": [
+        "title",
+        "src",
+        "alt",
+        "href"
+      ],
+      "correctAnswer": "alt",
+      "explanation": "The 'alt' attribute provides alternative text for an image if it cannot be displayed.",
+      "topic": "HTML Attributes",
+      "help": "This is important for accessibility."
+    },
+    {
+      "question": "What is the purpose of the 'form' element in HTML?",
+      "choices": [
+        "To create interactive forms for user input",
+        "To define a section of a webpage",
+        "To group elements together",
+        "To specify metadata"
+      ],
+      "correctAnswer": "To create interactive forms for user input",
+      "explanation": "The 'form' element is used to collect user input.",
+      "topic": "HTML Forms",
+      "help": "Forms can include text fields, buttons, checkboxes, and more."
+    },
+    {
+      "question": "What is the function of the 'validate()' method in JavaScript?",
+      "choices": [
+        "To check the correctness of an input",
+        "To send form data to the server",
+        "To parse JSON data",
+        "To format dates"
+      ],
+      "correctAnswer": "To check the correctness of an input",
+      "explanation": "The validate() method is used to check if the input data meets certain criteria.",
+      "topic": "JavaScript Form Handling",
+      "help": "Validation helps ensure data integrity before submission."
+    },
+    {
+      "question": "Which of the following is an example of a JavaScript event?",
+      "choices": [
+        "click",
+        "submit",
+        "load",
+        "All of the above"
+      ],
+      "correctAnswer": "All of the above",
+      "explanation": "Click, submit, and load are all events that can trigger JavaScript functions.",
+      "topic": "JavaScript Events",
+      "help": "Events are crucial for interactive web applications."
+    },
+    {
+      "question": "What is the purpose of the 'float' property in CSS?",
+      "choices": [
+        "To position an element to the left or right",
+        "To control the stacking order of elements",
+        "To change text alignment",
+        "None of the above"
+      ],
+      "correctAnswer": "To position an element to the left or right",
+      "explanation": "The 'float' property is used for positioning and layout in CSS.",
+      "topic": "CSS Layout",
+      "help": "It's often used to create text wraps around images."
+    },
+    {
+      "question": "Which HTML tag is used to define an unordered list?",
+      "choices": [
+        "<ol>",
+        "<ul>",
+        "<list>",
+        "<li>"
+      ],
+      "correctAnswer": "<ul>",
+      "explanation": "The <ul> tag defines an unordered list in HTML.",
+      "topic": "HTML Lists",
+      "help": "Items in the list are typically marked with bullet points."
+    },
+    {
+      "question": "What is the purpose of the 'debugger' statement in JavaScript?",
+      "choices": [
+        "To pause code execution for debugging",
+        "To handle errors",
+        "To create breakpoints",
+        "None of the above"
+      ],
+      "correctAnswer": "To pause code execution for debugging",
+      "explanation": "The 'debugger' statement stops the execution of JavaScript and calls the debugger.",
+      "topic": "JavaScript Debugging",
+      "help": "It's useful for troubleshooting code."
+    },
+    {
+      "question": "What is the primary purpose of a CSS reset?",
+      "choices": [
+        "To remove default browser styles",
+        "To set global styles",
+        "To create animations",
+        "None of the above"
+      ],
+      "correctAnswer": "To remove default browser styles",
+      "explanation": "A CSS reset is used to minimize browser inconsistencies in default styling.",
+      "topic": "CSS Styling",
+      "help": "It helps achieve a consistent look across different browsers."
+    },
+    {
+      "question": "What is a CDN?",
+      "choices": [
+        "Content Delivery Network",
+        "Central Data Node",
+        "Common Data Network",
+        "None of the above"
+      ],
+      "correctAnswer": "Content Delivery Network",
+      "explanation": "A CDN is a system of distributed servers that deliver web content based on the user's location.",
+      "topic": "Web Performance",
+      "help": "CDNs improve loading speed and reliability."
+    },
+    {
+      "question": "What is the purpose of the 'transform' property in CSS?",
+      "choices": [
+        "To change the position of an element",
+        "To apply 2D or 3D transformations",
+        "To animate elements",
+        "None of the above"
+      ],
+      "correctAnswer": "To apply 2D or 3D transformations",
+      "explanation": "The 'transform' property allows you to rotate, scale, and translate elements.",
+      "topic": "CSS Transforms",
+      "help": "Transforms can enhance visual design and user experience."
+    },
+    {
+      "question": "Which of the following is used to create a comment in JavaScript?",
+      "choices": [
+        "// This is a comment",
+        "<!-- This is a comment -->",
+        "/* This is a comment */",
+        "Both A and C"
+      ],
+      "correctAnswer": "Both A and C",
+      "explanation": "JavaScript comments can be single-line (//) or multi-line (/* */).",
+      "topic": "JavaScript Syntax",
+      "help": "Comments are crucial for documentation and code readability."
+    },
+    {
+      "question": "What is the role of a web browser?",
+      "choices": [
+        "To display web pages",
+        "To run server-side scripts",
+        "To manage databases",
+        "None of the above"
+      ],
+      "correctAnswer": "To display web pages",
+      "explanation": "Web browsers retrieve, present, and navigate information on the World Wide Web.",
+      "topic": "Web Technologies",
+      "help": "Popular browsers include Chrome, Firefox, and Safari."
+    },
+    {
+      "question": "What is the difference between padding and margin in CSS?",
+      "choices": [
+        "Padding is inside an element, margin is outside",
+        "Margin is inside an element, padding is outside",
+        "Both are the same",
+        "None of the above"
+      ],
+      "correctAnswer": "Padding is inside an element, margin is outside",
+      "explanation": "Padding creates space within an element, while margin creates space outside of it.",
+      "topic": "CSS Box Model",
+      "help": "Understanding the box model is crucial for layout design."
+    },
+    {
+      "question": "What does the 'hover' pseudo-class do in CSS?",
+      "choices": [
+        "Styles an element when the user hovers over it",
+        "Styles an element when it is clicked",
+        "Styles an element when it is focused",
+        "None of the above"
+      ],
+      "correctAnswer": "Styles an element when the user hovers over it",
+      "explanation": "The 'hover' pseudo-class applies styles to elements when a user hovers their cursor over them.",
+      "topic": "CSS Pseudo-Classes",
+      "help": "It's commonly used for interactive elements like buttons."
+    },
+    {
+      "question": "What is the function of the 'localStorage' object in JavaScript?",
+      "choices": [
+        "To store data locally in the browser",
+        "To handle network requests",
+        "To manipulate the DOM",
+        "None of the above"
+      ],
+      "correctAnswer": "To store data locally in the browser",
+      "explanation": "The 'localStorage' object allows you to store key-value pairs in a web browser with no expiration time.",
+      "topic": "JavaScript Storage",
+      "help": "It's useful for saving user preferences and application state."
+    },
+    {
+      "question": "What is a CSS selector?",
+      "choices": [
+        "A way to select HTML elements to style",
+        "A method to retrieve data",
+        "An event in JavaScript",
+        "None of the above"
+      ],
+      "correctAnswer": "A way to select HTML elements to style",
+      "explanation": "CSS selectors are patterns used to select elements you want to style.",
+      "topic": "CSS Basics",
+      "help": "Common selectors include class, ID, and element selectors."
+    },
+    {
+      "question": "What is the function of the 'splice()' method in JavaScript?",
+      "choices": [
+        "To add or remove elements from an array",
+        "To combine two arrays",
+        "To create a new array",
+        "None of the above"
+      ],
+      "correctAnswer": "To add or remove elements from an array",
+      "explanation": "The splice() method changes the contents of an array by removing or replacing existing elements.",
+      "topic": "JavaScript Arrays",
+      "help": "It can also insert new elements at a specified index."
+    },
+    {
+      "question": "What does the 'display' property in CSS control?",
+      "choices": [
+        "The box model of an element",
+        "The visibility of an element",
+        "The layout behavior of an element",
+        "None of the above"
+      ],
+      "correctAnswer": "The layout behavior of an element",
+      "explanation": "The 'display' property specifies the display behavior of an element, such as block, inline, or flex.",
+      "topic": "CSS Layout",
+      "help": "It influences how elements flow in the layout."
+    },
+    {
+      "question": "What does the 'forEach()' method do in JavaScript?",
+      "choices": [
+        "Iterates over an array",
+        "Filters an array",
+        "Reduces an array",
+        "None of the above"
+      ],
+      "correctAnswer": "Iterates over an array",
+      "explanation": "The forEach() method executes a provided function once for each array element.",
+      "topic": "JavaScript Arrays",
+      "help": "It's useful for applying a function to each item in an array."
+    },
+    {
+      "question": "What is the purpose of the 'filter()' method in JavaScript?",
+      "choices": [
+        "To create a new array with elements that pass a test",
+        "To add elements to an array",
+        "To modify elements in an array",
+        "None of the above"
+      ],
+      "correctAnswer": "To create a new array with elements that pass a test",
+      "explanation": "The filter() method creates a new array with all elements that pass the test implemented by the provided function.",
+      "topic": "JavaScript Arrays",
+      "help": "It's useful for selecting specific items from an array."
+    },
+    {
+      "question": "What does the 'grid-template-columns' property do in CSS Grid?",
+      "choices": [
+        "Defines the number of columns in a grid",
+        "Specifies the height of columns",
+        "Sets the gap between columns",
+        "None of the above"
+      ],
+      "correctAnswer": "Defines the number of columns in a grid",
+      "explanation": "The 'grid-template-columns' property specifies the size of the columns in a grid layout.",
+      "topic": "CSS Grid",
+      "help": "It helps create responsive layouts with varying column sizes."
+    }
+  ]
+}
