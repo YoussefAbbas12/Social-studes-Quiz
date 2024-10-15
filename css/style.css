@@ -327,3 +327,29 @@ input[type="range"] {
     color: #000;
     margin-left: 55px;
 }
+
+.saveForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.saveForm input{
+    background-color: #1a102b;
+    padding: 15px 30px;
+    border: 2px solid #2d2c2f;
+    border-radius: 50px;
+    color: #fff;
+    max-width: 177px;
+    margin-bottom: 10px;
+}
+
+.saveForm input[type="submit"]{
+    padding: 10px 20px;
+    width: 100px;
+    background: #34911d;
+    border-radius: 10px;
+    border-color: #496f37;
+    align-self: center;
+}
