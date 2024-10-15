@@ -276,7 +276,7 @@ async function checkAnswer(selected, correct, element) {
     setTimeout(() => {
         questionIndex++;
         displayQuestion();
-    }, 2000); // 2000 مللي ثانية = ثانيتين
+    }, 1000); // 2000 مللي ثانية = ثانيتين
 }
 
 
@@ -316,11 +316,8 @@ function showResult() {
 
 
 
+    quizActions.style.display = 'flex';
 
-    document.querySelector('.FormBtn').addEventListener('click' , () => {
-        document.querySelector('.saveForm').style.display = "none"
-        quizActions.style.display = 'flex';
-    })
     document.getElementById('particles-js').style.display = "block"
     // إظهار الأزرار بعد الانتهاء
 
@@ -380,7 +377,7 @@ function Error() {
     setTimeout(() => {
         questionIndex++;
         displayQuestion();
-    }, 2000); // 2000 مللي ثانية = ثانيتين
+    }, 1000); // 2000 مللي ثانية = ثانيتين
 }
 
 // دالة لتحديث عرض عدد الأسئلة المختار
