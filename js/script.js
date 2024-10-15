@@ -6,6 +6,162 @@ let selectedQuestions = [];
 let screenshots = [];
 
 
+
+// let teamsInformation = {
+//     team1:{
+//         members:{
+//             member1:"youssef",
+//             member2:"mohamed",
+//             member3:"sameh",
+//             member4:"ali"
+//         },
+//         competitions:{
+//             competition1:{
+//                 name:"football",
+//                 score:5
+//             },
+//             competition2:{
+//                 name:"tennis",
+//                 score:5
+//             },
+//             competition3:{
+//                 name:"swimming",
+//                 score:5
+//             },
+//             competition4:{
+//                 name:"running",
+//                 score:5
+//             },
+//             competition5:{
+//                 name:"chess",
+//                 score:5
+//             }
+//         }
+//     },
+//     team2:{
+//         members:{
+//             member1:"youssef",
+//             member2:"mohamed",
+//             member3:"sameh",
+//             member4:"ali"
+//         },
+//         competitions:{
+//             competition1:{
+//                 name:"football",
+//                 score:5
+//             },
+//             competition2:{
+//                 name:"tennis",
+//                 score:5
+//             },
+//             competition3:{
+//                 name:"swimming",
+//                 score:5
+//             },
+//             competition4:{
+//                 name:"running",
+//                 score:5
+//             },
+//             competition5:{
+//                 name:"chess",
+//                 score:5
+//             }
+//         }
+//     },
+//     team3:{
+//         members:{
+//             member1:"youssef",
+//             member2:"mohamed",
+//             member3:"sameh",
+//             member4:"ali"
+//         },
+//         competitions:{
+//             competition1:{
+//                 name:"football",
+//                 score:5
+//             },
+//             competition2:{
+//                 name:"tennis",
+//                 score:5
+//             },
+//             competition3:{
+//                 name:"swimming",
+//                 score:5
+//             },
+//             competition4:{
+//                 name:"running",
+//                 score:5
+//             },
+//             competition5:{
+//                 name:"chess",
+//                 score:5
+//             }
+//         }
+//     },
+//     team4:{
+//         members:{
+//             member1:"youssef",
+//             member2:"mohamed",
+//             member3:"sameh",
+//             member4:"ali"
+//         },
+//         competitions:{
+//             competition1:{
+//                 name:"football",
+//                 score:5
+//             },
+//             competition2:{
+//                 name:"tennis",
+//                 score:5
+//             },
+//             competition3:{
+//                 name:"swimming",
+//                 score:5
+//             },
+//             competition4:{
+//                 name:"running",
+//                 score:5
+//             },
+//             competition5:{
+//                 name:"chess",
+//                 score:5
+//             }
+//         }
+//     },
+//     team5:{
+//         members:{
+//             member1:"youssef",
+//             member2:"mohamed",
+//             member3:"sameh",
+//             member4:"ali"
+//         },
+//         competitions:{
+//             competition1:{
+//                 name:"football",
+//                 score:5
+//             },
+//             competition2:{
+//                 name:"tennis",
+//                 score:5
+//             },
+//             competition3:{
+//                 name:"swimming",
+//                 score:5
+//             },
+//             competition4:{
+//                 name:"running",
+//                 score:5
+//             },
+//             competition5:{
+//                 name:"chess",
+//                 score:5
+//             }
+//         }
+//     },
+// }
+
+console.log(teamsInformation['team1']['members'])
+
 // دالة لبدء الكويز
 async function startQuiz() {
     const numQuestions = document.getElementById('numQuestions').value;
@@ -139,12 +295,35 @@ function showResult() {
         <h2>You finish the Quiz Sucsuffly</h2>
         <p class="finesh">Your score: ${score} / ${selectedQuestions.length}</p>
         <p class="finesh">Good Jop!</p>
+ 
+
+        <form action="https://api.web3forms.com/submit" class="saveForm" method="POST">
+            <input type="hidden" name="access_key" value="46db0722-b0fd-4bba-9641-715c8a7897a6">
+
+            <div class="input-box">
+                <input type="text" name="name" placeholder="Full Name" required>
+                <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+            <div class="input-box">
+                <input type="number" name="phone" placeholder="Mobile Number" required>
+                <input type="number" name="questions" placeholder="question number">
+                <input type="number" name="score" placeholder="score">
+            </div>
+            <input type="submit" class="FormBtn">
+        </form>
+
     `;
 
-    document.getElementById('particles-js').style.display = "block"
 
+
+
+    document.querySelector('.FormBtn').addEventListener('click' , () => {
+        document.querySelector('.saveForm').style.display = "none"
+        quizActions.style.display = 'flex';
+    })
+    document.getElementById('particles-js').style.display = "block"
     // إظهار الأزرار بعد الانتهاء
-    quizActions.style.display = 'flex';
+
 }
 
 async function downloadScreenshotsPDF() {
